@@ -12,9 +12,9 @@ body {
 }
 #game {
   margin: 10px;
-  border: 5px white;
+  border: 5px black;
   left: 0;
-  position: absolute;
+  position: 1000;
   background-image: url("fireflie gif.gif");
   background-size: cover;
 
