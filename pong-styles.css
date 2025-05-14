@@ -13,6 +13,17 @@ body {
   border: 5px white;
   left: 0;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;  /* full viewport width */
+  height: 100vh; /* full viewport height */
+  margin: 0;
+  border: none;
+  background-image: url('fireflie gif.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* send to back so paddles/ball appear on top */
   background-image: url('fireflie gif.gif');
   background-size: cover;
 }
