@@ -15,7 +15,7 @@ body {
   border: 5px white;
   left: 0;
   position: absolute;
-  background-image: url('');
+  background-image: url('space background.jpg');
   background-size: cover;
 
 #left-paddle {
