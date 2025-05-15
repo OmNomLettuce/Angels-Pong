@@ -32,18 +32,18 @@ body {
 
 #instructions {
   display: block;
-  left: 75;
-  top: 0;
-  position: absolute;
+  position: relative;
+  top: 30px;
+  left: 30px;
   margin: 10px;
   font-family: Comic Sans MS;
 }
 
 #errors-debug {
   display: block;
-  right: 75;
-  bottom: 0;
-  position: absolute;
+  position: relative;
+  top: 30px;
+  left: 30px;
   margin: 10px;
   padding-left: 400px;
   font-family: Comic Sans MS;
