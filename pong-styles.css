@@ -12,8 +12,7 @@ html,
   #game {
     margin: 4px;
     border: 5px solid black;
-    left: 50;
-    right: 50;
+    center: 50;
     position: absolute;
     background-image: url("fireflie gif.gif");
     background-size: cover;
