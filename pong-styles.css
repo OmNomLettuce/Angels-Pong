@@ -33,6 +33,7 @@ body {
 #instructions {
   display: block;
   bottom: 0;
+  right: 10;
   position: absolute;
   margin: 10px;
   font-family: Comic Sans MS;
