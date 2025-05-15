@@ -11,7 +11,6 @@ body {
   height: 100;
 }
 #game {
-  right: 80;
   margin: 10px;
   border: 5px solid black;
   position: absolute;
@@ -33,7 +32,8 @@ body {
 
 #instructions {
   display: block;
-  right: 120;
+  right: 0;
+  top: 0;
   position: absolute;
   margin: 10px;
   font-family: Comic Sans MS;
@@ -41,7 +41,7 @@ body {
 
 #errors-debug {
   display: block;
-  right: 120;
+  right: 0;
   bottom: 0;
   position: absolute;
   margin: 10px;
@@ -88,7 +88,6 @@ body {
 
 .score {
   display: block;
-  right: 80;
   position: absolute;
   font-family: Comic Sans MS;
   top: 0;
