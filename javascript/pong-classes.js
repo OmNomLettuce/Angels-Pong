@@ -13,8 +13,7 @@ export class Game {
     volume,
     computerstate,
     computerDifficulty,
-    computerDifficultySpeed,
-    boxPosition
+    computerDifficultySpeed
   ) {
     
     this.size = { x: 600, y: 500 }; //container for entire game
