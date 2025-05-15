@@ -32,8 +32,8 @@ body {
 
 #instructions {
   display: block;
-  bottom: 0;
-  right: 0;
+  top: 0;
+  right: 100px;
   position: absolute;
   margin: 10px;
   font-family: Comic Sans MS;
@@ -42,7 +42,7 @@ body {
 #errors-debug {
   display: block;
   bottom: 0;
-  right: 0;
+  right: 100px;
   position: absolute;
   margin: 10px;
   padding-left: 400px;
