@@ -13,9 +13,12 @@ export class Game {
     volume,
     computerstate,
     computerDifficulty,
-    computerDifficultySpeed
+    computerDifficultySpeed,
+    boxPosition
   ) {
-    this.size = { x: 1000, y: 1000 }; //container for entire game
+    
+    this.boxPosition = { x: 100, y:50 }; //box position
+    this.size = { x: 600, y: 500 }; //container for entire game
     this.padding = { x: 10, y: 10 }; //white space inside game border
     this.htmlElement = null; //element on HTML page
     this.mousePosition = { x: 0, y: 0 };
