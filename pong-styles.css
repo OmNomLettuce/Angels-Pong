@@ -32,6 +32,7 @@ body {
 
 #instructions {
   display: block;
+  right: 0;
   position: absolute;
   margin: 10px;
   font-family: Comic Sans MS;
@@ -39,6 +40,8 @@ body {
 
 #errors-debug {
   display: block;
+  bottom: 0;
+  right: 0;
   position: absolute;
   margin: 10px;
   padding-left: 400px;
