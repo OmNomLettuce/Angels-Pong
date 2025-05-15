@@ -17,7 +17,6 @@ export class Game {
     boxPosition
   ) {
     
-    this.boxPosition = { x: 100, y:50 }; //box position
     this.size = { x: 600, y: 500 }; //container for entire game
     this.padding = { x: 10, y: 10 }; //white space inside game border
     this.htmlElement = null; //element on HTML page
