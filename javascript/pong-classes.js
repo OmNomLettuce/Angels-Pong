@@ -21,7 +21,7 @@ export class Game {
     this.mousePosition = { x: 0, y: 0 };
     this.mute = false; //default mute state
     this.volume = 10; //default volume output 0-10
-    this.computerState = 4; //default computer control amount
+    this.computerState = 2; //default computer control amount
     this.computerDifficulty = ["off", "easy", "medium", "hard", "impossible"]; //sets the computer difficulty names
     this.computerDifficultySpeed = [0, 2, 4, 8, 100]; //sets the computer difficulty speeds
   }
