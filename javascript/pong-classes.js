@@ -65,7 +65,7 @@ export class Paddle {
     this.oldPosition = { x: 50, y: 50 }; //paddle position 1 frame ago
     this.velocity = { x: 0.75, y: 0.75 }; //calculated velocity
     this.direction = { x: 0, y: 0 }; //position offset
-    this.speed = 12; //rate that paddle moves with keyboard
+    this.speed = 14.5; //rate that paddle moves with keyboard
     this.hasHit = true; //keep track of wheter paddle hit ball or not
     this.htmlElement = null; //element on HTML page
   }
