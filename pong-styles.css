@@ -17,7 +17,8 @@ html,
     position: absolute;
     background-image: url("fireflie gif.gif");
     background-size: cover;
-
+  )
+    
     #left-paddle {
       background-color: white;
       left: 10px;
