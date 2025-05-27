@@ -42,17 +42,6 @@ export function playDeferredSounds() {
 export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
-
-export var wallSound = new soundFile("bubble pop.mp3"); //load sound
-soundArray.push(wallSound); //add sound to list of sounds
-
-export var paddleSound = new soundFile("bubble pop.mp3");
-soundArray.push(paddleSound);
-
-export var scoreSound = new soundFile("score point.mp3");
-soundArray.push(scoreSound);
-scoreSound.player.volume.value = -12;
-
 export var ambientSound = new soundFile("silence.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
@@ -67,3 +56,13 @@ export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
+
+export var wallSound = new soundFile("bubble pop.mp3"); //load sound
+soundArray.push(wallSound); //add sound to list of sounds
+
+export var paddleSound = new soundFile("bubble pop.mp3");
+soundArray.push(paddleSound);
+
+export var scoreSound = new soundFile("score point.mp3");
+soundArray.push(scoreSound);
+scoreSound.player.volume.value = -12;
